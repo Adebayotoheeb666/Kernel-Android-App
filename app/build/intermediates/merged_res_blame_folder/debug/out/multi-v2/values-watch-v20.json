@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kernel.mgmt.app-mergeDebugResources-45:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/adebayo/.gradle/caches/transforms-3/35806d264ec2a34a7627b6d4de77ca81/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

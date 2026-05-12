@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base app theme (dark) -->
+    <style name="Theme.DLS" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryVariant">@color/brand_primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- Full-screen opaque theme for lock/overlay activities -->
+    <style name="Theme.DLS.LockScreen" parent="Theme.DLS">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/lock_red</item>
+        <item name="android:statusBarColor">@color/lock_red_dark</item>
+        <item name="android:navigationBarColor">@color/lock_red_dark</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+</resources>
