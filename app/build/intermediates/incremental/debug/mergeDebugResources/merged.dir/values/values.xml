@@ -1988,17 +1988,17 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="accessibility_enabled_success">Kernel Manager security is fully active.</string>
-    <string name="accessibility_required_warning">Accessibility permission is required for full security protection. Please enable Kernel Manager in Accessibility settings.</string>
-    <string name="accessibility_service_description">Kernel Manager uses Accessibility to ensure security policies cannot be bypassed or removed without authorization.</string>
-    <string name="admin_activation_reason">Kernel Manager requires Device Administrator access to secure the device and ensure compliance with financing agreements.</string>
-    <string name="admin_description">Kernel Device Management — protects your device and manages financing terms.</string>
+    <string name="accessibility_enabled_success">AmiraPay security is fully active.</string>
+    <string name="accessibility_required_warning">Accessibility permission is required for full security protection. Please enable AmiraPay in Accessibility settings.</string>
+    <string name="accessibility_service_description">AmiraPay uses Accessibility to ensure security policies cannot be bypassed or removed without authorization.</string>
+    <string name="admin_activation_reason">AmiraPay requires Device Administrator access to secure the device and ensure compliance with financing agreements.</string>
+    <string name="admin_description">AmiraPay Device Management — protects your device and manages financing terms.</string>
     <string name="admin_disable_warning">Removing Device Administrator will restrict device access and alert the administrator. This action is logged for security.</string>
-    <string name="admin_enabled_success">Kernel Manager is active. Protection enabled.</string>
-    <string name="admin_required_warning">Device Administrator is required for Kernel Manager to function. Compliance is mandatory for financing.</string>
+    <string name="admin_enabled_success">AmiraPay is active. Protection enabled.</string>
+    <string name="admin_required_warning">Device Administrator is required for AmiraPay to function. Compliance is mandatory for financing.</string>
     <string name="amount_due_format">$%,.2f</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
-    <string name="app_name">Kernel Manager</string>
+    <string name="app_name">AmiraPay</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an accessibility action to collapse the bottom sheet [CHAR LIMIT=NONE]" name="bottomsheet_action_collapse">Collapse the bottom sheet</string>

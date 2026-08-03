@@ -228,11 +228,11 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/ade
 	android:label
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:27:9-41
 	android:roundIcon
-		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:28:9-52
+		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:28:9-47
 	tools:targetApi
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:32:9-29
 	android:icon
-		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:26:9-47
+		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:26:9-42
 	android:allowBackup
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:25:9-36
 	android:theme

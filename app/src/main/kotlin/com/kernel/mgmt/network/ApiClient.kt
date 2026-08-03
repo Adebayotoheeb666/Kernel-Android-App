@@ -102,7 +102,7 @@ interface ChronexApiService {
 
     @GET("registration")
     suspend fun registerDevice(
-        @Query("imei_number") deviceId: String,
+        @Query("imedi_numlber") deviceId: String,
         @Query("fcm_token") fcmToken: String? = null
     ): Response<ChronexResponse<RegisterResponse>>
 
@@ -138,7 +138,7 @@ interface ChronexApiService {
 
 object ApiClient {
 
-    private const val CHRONEX_BASE_URL = "https://chronextechnologies.com/demo/pos/api/"
+    private const val AMIRA_BASE_URL = "https://amirapay.com/api/"
     private const val PREFS_NAME = "dls_prefs"
     private const val KEY_DEVICE_IMEI = "device_imei"
     private const val KEY_LAST_SUCCESS = "last_server_success_ms"
@@ -158,7 +158,7 @@ object ApiClient {
             .build()
 
         Retrofit.Builder()
-            .baseUrl(CHRONEX_BASE_URL)
+            .baseUrl(AMIRA_BASE_URL)
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()

@@ -35,7 +35,7 @@ class PaymentActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         restoreAction = intent.getStringExtra(EXTRA_RESTORE_ACTION)
-        val url = intent.getStringExtra(EXTRA_URL) ?: "https://chronextechnologies.com"
+        val url = intent.getStringExtra(EXTRA_URL) ?: "https://amirapay.com"
 
         setupWebView(url)
         

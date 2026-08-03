@@ -12,6 +12,7 @@ color status_green
 color status_red
 color text_primary
 color text_secondary
+drawable amirapay
 drawable bg_button_outline_white
 drawable bg_button_white_rounded
 drawable ic_copy

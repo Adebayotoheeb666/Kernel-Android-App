@@ -41,9 +41,9 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:icon="@drawable/ic_lock_check"
+        android:icon="@drawable/amirapay"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_lock_check"
+        android:roundIcon="@drawable/amirapay"
         android:supportsRtl="true"
         android:theme="@style/Theme.DLS"
         android:usesCleartextTraffic="false" >
