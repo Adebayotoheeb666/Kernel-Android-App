@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.kernel.mgmt.app-mergeDebugResources-45:/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "com.amirapay.mgmt.app-mergeDebugResources-45:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "/home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/res/values-fr-rCA/values-fr-rCA.xml",

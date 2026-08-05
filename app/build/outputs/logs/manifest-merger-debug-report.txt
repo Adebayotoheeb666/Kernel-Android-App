@@ -239,7 +239,7 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/ade
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:30:9-41
 	android:usesCleartextTraffic
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:31:9-45
-activity#com.kernel.mgmt.ui.MainActivity
+activity#com.amirapay.mgmt.ui.MainActivity
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:37:9-46:20
 	android:screenOrientation
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:41:13-49
@@ -259,7 +259,7 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:44:17-77
 	android:name
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:44:27-74
-activity#com.kernel.mgmt.ui.PaymentOverlayActivity
+activity#com.amirapay.mgmt.ui.PaymentOverlayActivity
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:51:9-59:59
 	android:screenOrientation
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:56:13-49
@@ -277,7 +277,7 @@ ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:58:13-36
 	android:name
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:52:13-54
-activity#com.kernel.mgmt.ui.PaymentActivity
+activity#com.amirapay.mgmt.ui.PaymentActivity
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:64:9-71:59
 	android:screenOrientation
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:69:13-49
@@ -293,7 +293,7 @@ ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:71:13-56
 	android:name
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:65:13-47
-receiver#com.kernel.mgmt.admin.DeviceAdminManager
+receiver#com.amirapay.mgmt.admin.DeviceAdminManager
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:76:9-90:20
 	android:label
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:80:13-45
@@ -325,7 +325,7 @@ action#android.app.action.DEVICE_ADMIN_DISABLED
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:88:17-83
 	android:name
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:88:25-80
-receiver#com.kernel.mgmt.receiver.BootReceiver
+receiver#com.amirapay.mgmt.receiver.BootReceiver
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:95:9-104:20
 	android:exported
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:98:13-36
@@ -347,7 +347,7 @@ action#android.intent.action.MY_PACKAGE_REPLACED
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:102:17-84
 	android:name
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:102:25-81
-service#com.kernel.mgmt.fcm.FCMService
+service#com.amirapay.mgmt.fcm.FCMService
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:109:9-116:19
 	android:exported
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:112:13-37
@@ -361,7 +361,7 @@ action#com.google.firebase.MESSAGING_EVENT
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:114:17-78
 	android:name
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:114:25-75
-service#com.kernel.mgmt.service.LockOverlayService
+service#com.amirapay.mgmt.service.LockOverlayService
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:121:9-124:40
 	android:exported
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:124:13-37
@@ -369,7 +369,7 @@ ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:123:13-43
 	android:name
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:122:13-55
-service#com.kernel.mgmt.service.CoreEnforcementService
+service#com.amirapay.mgmt.service.CoreEnforcementService
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:126:9-129:40
 	android:exported
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:129:13-37
@@ -377,7 +377,7 @@ ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:128:13-43
 	android:name
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:127:13-59
-service#com.kernel.mgmt.accessibility.AdminAccessibilityService
+service#com.amirapay.mgmt.accessibility.AdminAccessibilityService
 ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:135:9-146:19
 	android:label
 		ADDED from /home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:138:13-45
@@ -913,7 +913,7 @@ ADDED from [androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3
 		ADDED from [androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
-permission#com.kernel.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.amirapay.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
@@ -923,7 +923,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
-uses-permission#com.kernel.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.amirapay.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:26:22-94

@@ -1,15 +1,15 @@
 {
     "project_info": {
         "project_number": "594982060622",
-        "project_id": "kernel-74242",
-        "storage_bucket": "kernel-74242.firebasestorage.app"
+        "project_id": "amirapay-74242",
+        "storage_bucket": "amirapay-74242.firebasestorage.app"
     },
     "client": [
         {
             "client_info": {
                 "mobilesdk_app_id": "1:594982060622:android:e5a62f83ef10c54cabb91f",
                 "android_client_info": {
-                    "package_name": "com.kernel.mgmt"
+                    "package_name": "com.amirapay.mgmt"
                 }
             },
             "oauth_client": [],

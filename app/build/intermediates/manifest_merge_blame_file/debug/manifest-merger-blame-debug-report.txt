@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.kernel.mgmt"
+3    package="com.amirapay.mgmt"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -60,12 +60,12 @@
 32
 33    <permission
 33-->[androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
-34        android:name="com.kernel.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34        android:name="com.amirapay.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 34-->[androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 35        android:protectionLevel="signature" />
 35-->[androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 36
-37    <uses-permission android:name="com.kernel.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37    <uses-permission android:name="com.amirapay.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 37-->[androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 37-->[androidx.core:core:1.12.0] /home/adebayo/.gradle/caches/transforms-3/5ed153b164191934a1176b76771d2109/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 38
@@ -95,7 +95,7 @@
 53        <!-- ============================================================ -->
 54        <activity
 54-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:37:9-46:20
-55            android:name="com.kernel.mgmt.ui.MainActivity"
+55            android:name="com.amirapay.mgmt.ui.MainActivity"
 55-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:38:13-44
 56            android:exported="true"
 56-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:39:13-36
@@ -120,7 +120,7 @@
 68        <!-- ============================================================ -->
 69        <activity
 69-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:51:9-59:59
-70            android:name="com.kernel.mgmt.ui.PaymentOverlayActivity"
+70            android:name="com.amirapay.mgmt.ui.PaymentOverlayActivity"
 70-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:52:13-54
 71            android:excludeFromRecents="true"
 71-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:54:13-46
@@ -142,7 +142,7 @@
 81        <!-- ============================================================ -->
 82        <activity
 82-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:64:9-71:59
-83            android:name="com.kernel.mgmt.ui.PaymentActivity"
+83            android:name="com.amirapay.mgmt.ui.PaymentActivity"
 83-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:65:13-47
 84            android:excludeFromRecents="true"
 84-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:67:13-46
@@ -162,7 +162,7 @@
 93        <!-- ============================================================ -->
 94        <receiver
 94-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:76:9-90:20
-95            android:name="com.kernel.mgmt.admin.DeviceAdminManager"
+95            android:name="com.amirapay.mgmt.admin.DeviceAdminManager"
 95-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:77:13-53
 96            android:description="@string/admin_description"
 96-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:78:13-60
@@ -198,7 +198,7 @@
 113        <!-- ============================================================ -->
 114        <receiver
 114-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:95:9-104:20
-115            android:name="com.kernel.mgmt.receiver.BootReceiver"
+115            android:name="com.amirapay.mgmt.receiver.BootReceiver"
 115-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:96:13-50
 116            android:directBootAware="true"
 116-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:97:13-43
@@ -223,7 +223,7 @@
 127        <!-- ============================================================ -->
 128        <service
 128-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:109:9-116:19
-129            android:name="com.kernel.mgmt.fcm.FCMService"
+129            android:name="com.amirapay.mgmt.fcm.FCMService"
 129-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:110:13-43
 130            android:directBootAware="true"
 130-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:111:13-43
@@ -242,7 +242,7 @@
 139        <!-- ============================================================ -->
 140        <service
 140-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:121:9-124:40
-141            android:name="com.kernel.mgmt.service.LockOverlayService"
+141            android:name="com.amirapay.mgmt.service.LockOverlayService"
 141-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:122:13-55
 142            android:directBootAware="true"
 142-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:123:13-43
@@ -250,7 +250,7 @@
 143-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:124:13-37
 144        <service
 144-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:126:9-129:40
-145            android:name="com.kernel.mgmt.service.CoreEnforcementService"
+145            android:name="com.amirapay.mgmt.service.CoreEnforcementService"
 145-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:127:13-59
 146            android:directBootAware="true"
 146-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:128:13-43
@@ -263,7 +263,7 @@
 152        <!-- ============================================================ -->
 153        <service
 153-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:135:9-146:19
-154            android:name="com.kernel.mgmt.accessibility.AdminAccessibilityService"
+154            android:name="com.amirapay.mgmt.accessibility.AdminAccessibilityService"
 154-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:136:13-68
 155            android:exported="true"
 155-->/home/adebayo/Desktop/Kernel/android/app/src/main/AndroidManifest.xml:137:13-36
@@ -290,7 +290,7 @@
 167-->[androidx.emoji2:emoji2:1.2.0] /home/adebayo/.gradle/caches/transforms-3/819f1ec58b71cb36b371ffa8785ec663/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 168            android:name="androidx.startup.InitializationProvider"
 168-->[androidx.emoji2:emoji2:1.2.0] /home/adebayo/.gradle/caches/transforms-3/819f1ec58b71cb36b371ffa8785ec663/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-169            android:authorities="com.kernel.mgmt.androidx-startup"
+169            android:authorities="com.amirapay.mgmt.androidx-startup"
 169-->[androidx.emoji2:emoji2:1.2.0] /home/adebayo/.gradle/caches/transforms-3/819f1ec58b71cb36b371ffa8785ec663/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 170            android:exported="false" >
 170-->[androidx.emoji2:emoji2:1.2.0] /home/adebayo/.gradle/caches/transforms-3/819f1ec58b71cb36b371ffa8785ec663/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
@@ -424,7 +424,7 @@
 240-->[com.google.firebase:firebase-common:20.4.2] /home/adebayo/.gradle/caches/transforms-3/ef4ef01daae7200d3c8ca4ec195f2f2f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
 241            android:name="com.google.firebase.provider.FirebaseInitProvider"
 241-->[com.google.firebase:firebase-common:20.4.2] /home/adebayo/.gradle/caches/transforms-3/ef4ef01daae7200d3c8ca4ec195f2f2f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-242            android:authorities="com.kernel.mgmt.firebaseinitprovider"
+242            android:authorities="com.amirapay.mgmt.firebaseinitprovider"
 242-->[com.google.firebase:firebase-common:20.4.2] /home/adebayo/.gradle/caches/transforms-3/ef4ef01daae7200d3c8ca4ec195f2f2f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
 243            android:directBootAware="true"
 243-->[com.google.firebase:firebase-common:20.4.2] /home/adebayo/.gradle/caches/transforms-3/ef4ef01daae7200d3c8ca4ec195f2f2f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43

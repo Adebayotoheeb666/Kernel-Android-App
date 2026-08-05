@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.kernel.mgmt.app-mergeDebugResources-45:/values-ca/values-ca.xml",
+            "outputFile": "com.amirapay.mgmt.app-mergeDebugResources-45:/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "/home/adebayo/.gradle/caches/transforms-3/35806d264ec2a34a7627b6d4de77ca81/transformed/appcompat-1.6.1/res/values-ca/values-ca.xml",

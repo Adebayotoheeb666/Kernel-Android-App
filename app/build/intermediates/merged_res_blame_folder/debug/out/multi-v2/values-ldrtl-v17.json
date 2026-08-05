@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.kernel.mgmt.app-mergeDebugResources-45:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.amirapay.mgmt.app-mergeDebugResources-45:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
                     "source": "/home/adebayo/.gradle/caches/transforms-3/c24a31c7a6b8cb759962de409f2ad345/transformed/material-1.11.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",

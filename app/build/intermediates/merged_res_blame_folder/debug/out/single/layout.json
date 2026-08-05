@@ -1,22 +1,18 @@
 [
     {
-        "merged": "/home/adebayo/.gradle/daemon/8.2/com.kernel.mgmt.app-mergeDebugResources-46:/layout/overlay_grace_period.xml",
-        "source": "/home/adebayo/.gradle/daemon/8.2/com.kernel.mgmt.app-main-49:/layout/overlay_grace_period.xml"
+        "merged": "com.amirapay.mgmt.app-mergeDebugResources-46:/layout/overlay_payment.xml",
+        "source": "com.amirapay.mgmt.app-main-49:/layout/overlay_payment.xml"
     },
     {
-        "merged": "/home/adebayo/.gradle/daemon/8.2/com.kernel.mgmt.app-mergeDebugResources-46:/layout/overlay_payment.xml",
-        "source": "/home/adebayo/.gradle/daemon/8.2/com.kernel.mgmt.app-main-49:/layout/overlay_payment.xml"
+        "merged": "com.amirapay.mgmt.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.amirapay.mgmt.app-main-49:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/adebayo/.gradle/daemon/8.2/com.kernel.mgmt.app-mergeDebugResources-46:/layout/activity_main.xml",
-        "source": "/home/adebayo/.gradle/daemon/8.2/com.kernel.mgmt.app-main-49:/layout/activity_main.xml"
+        "merged": "com.amirapay.mgmt.app-mergeDebugResources-46:/layout/activity_payment.xml",
+        "source": "com.amirapay.mgmt.app-main-49:/layout/activity_payment.xml"
     },
     {
-        "merged": "com.kernel.mgmt.app-mergeDebugResources-46:/layout/overlay_payment.xml",
-        "source": "com.kernel.mgmt.app-main-49:/layout/overlay_payment.xml"
-    },
-    {
-        "merged": "/home/adebayo/.gradle/daemon/8.2/com.kernel.mgmt.app-mergeDebugResources-46:/layout/activity_payment.xml",
-        "source": "/home/adebayo/.gradle/daemon/8.2/com.kernel.mgmt.app-main-49:/layout/activity_payment.xml"
+        "merged": "com.amirapay.mgmt.app-mergeDebugResources-46:/layout/overlay_grace_period.xml",
+        "source": "com.amirapay.mgmt.app-main-49:/layout/overlay_grace_period.xml"
     }
 ]

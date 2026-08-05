@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Grace period overlay — softer warning shown when device is offline >48 hours -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grace_orange">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/tv_disclaimer"
+        android:fadeScrollbars="false"
+        android:paddingHorizontal="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingVertical="32dp">
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/ic_lock_check"
+                android:tint="@android:color/white"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/grace_period_heading"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/tv_lock_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/grace_period_message"
+                android:textColor="#FFDDB8"
+                android:textSize="15sp"
+                android:lineSpacingMultiplier="1.4"
+                android:layout_marginBottom="32dp" />
+
+            <!-- Invisible amount_due placeholder to keep same interface -->
+            <TextView
+                android:id="@+id/tv_amount_due"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="gone" />
+
+            <!-- Pay Now Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pay_now"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/btn_pay_now"
+                android:textColor="@color/grace_orange"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/white"
+                app:cornerRadius="28dp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Request Restore Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_request_restore"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/btn_request_restore"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:backgroundTint="@android:color/transparent"
+                app:strokeColor="@android:color/white"
+                app:strokeWidth="2dp"
+                app:cornerRadius="28dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/grace_footer"
+        android:textColor="#99FFFFFF"
+        android:textSize="12sp"
+        android:paddingHorizontal="32dp" />
+
+</RelativeLayout>

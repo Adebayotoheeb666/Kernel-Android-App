@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.kernel.mgmt'
+    namespace 'com.amirapay.mgmt'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.kernel.mgmt"
+        applicationId "com.amirapay.mgmt"
         minSdk 26
         targetSdk 34
         versionCode 1

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.kernel.mgmt.app-mergeDebugResources-45:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.amirapay.mgmt.app-mergeDebugResources-45:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "/home/adebayo/.gradle/caches/transforms-3/2c3d70a2b2960e708fb96ca3e75e263e/transformed/jetified-play-services-basement-18.1.0/res/values-b+sr+Latn/values.xml",

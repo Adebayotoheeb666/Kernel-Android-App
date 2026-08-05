@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kernel.mgmt"
+    package="com.amirapay.mgmt"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -31,10 +31,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.kernel.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.amirapay.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.kernel.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.amirapay.mgmt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="false"
@@ -52,7 +52,7 @@
         <!-- Main Dashboard Activity -->
         <!-- ============================================================ -->
         <activity
-            android:name="com.kernel.mgmt.ui.MainActivity"
+            android:name="com.amirapay.mgmt.ui.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" >
@@ -67,7 +67,7 @@
         <!-- Payment Lock Screen Activity (fallback if overlay denied) -->
         <!-- ============================================================ -->
         <activity
-            android:name="com.kernel.mgmt.ui.PaymentOverlayActivity"
+            android:name="com.amirapay.mgmt.ui.PaymentOverlayActivity"
             android:excludeFromRecents="true"
             android:exported="false"
             android:launchMode="singleTask"
@@ -80,7 +80,7 @@
         <!-- Payment WebView Activity (shows over system lock screen) -->
         <!-- ============================================================ -->
         <activity
-            android:name="com.kernel.mgmt.ui.PaymentActivity"
+            android:name="com.amirapay.mgmt.ui.PaymentActivity"
             android:excludeFromRecents="true"
             android:exported="false"
             android:launchMode="singleTask"
@@ -92,7 +92,7 @@
         <!-- Device Admin Receiver -->
         <!-- ============================================================ -->
         <receiver
-            android:name="com.kernel.mgmt.admin.DeviceAdminManager"
+            android:name="com.amirapay.mgmt.admin.DeviceAdminManager"
             android:description="@string/admin_description"
             android:exported="true"
             android:label="@string/app_name"
@@ -112,7 +112,7 @@
         <!-- Boot Receiver (restarts WorkManager after reboot) -->
         <!-- ============================================================ -->
         <receiver
-            android:name="com.kernel.mgmt.receiver.BootReceiver"
+            android:name="com.amirapay.mgmt.receiver.BootReceiver"
             android:directBootAware="true"
             android:exported="true" >
             <intent-filter>
@@ -126,7 +126,7 @@
         <!-- FCM Service -->
         <!-- ============================================================ -->
         <service
-            android:name="com.kernel.mgmt.fcm.FCMService"
+            android:name="com.amirapay.mgmt.fcm.FCMService"
             android:directBootAware="true"
             android:exported="false" >
             <intent-filter>
@@ -138,11 +138,11 @@
         <!-- Lock Overlay Foreground Service -->
         <!-- ============================================================ -->
         <service
-            android:name="com.kernel.mgmt.service.LockOverlayService"
+            android:name="com.amirapay.mgmt.service.LockOverlayService"
             android:directBootAware="true"
             android:exported="false" />
         <service
-            android:name="com.kernel.mgmt.service.CoreEnforcementService"
+            android:name="com.amirapay.mgmt.service.CoreEnforcementService"
             android:directBootAware="true"
             android:exported="false" />
 
@@ -151,7 +151,7 @@
         <!-- Works WITHOUT Device Owner — user grants once via Settings -->
         <!-- ============================================================ -->
         <service
-            android:name="com.kernel.mgmt.accessibility.AdminAccessibilityService"
+            android:name="com.amirapay.mgmt.accessibility.AdminAccessibilityService"
             android:exported="true"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
@@ -166,7 +166,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.kernel.mgmt.androidx-startup"
+            android:authorities="com.amirapay.mgmt.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
@@ -239,7 +239,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.kernel.mgmt.firebaseinitprovider"
+            android:authorities="com.amirapay.mgmt.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
