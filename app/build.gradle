@@ -4,6 +4,14 @@ plugins {
     id 'com.google.gms.google-services'
 }
 
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+} else {
+    logger.warn('key.properties NOT FOUND — release builds will be unsigned. See android/README or ask the project owner for android/key.properties.')
+}
+
 android {
     namespace 'com.amirapay.mgmt'
     compileSdk 34
@@ -18,13 +26,13 @@ android {
     }
 
     signingConfigs {
-    release {
-        storeFile file('../../backend/my-release-key.keystore') // corrected path
-        storePassword 'rootkali'
-        keyAlias 'my-key-alias'
-        keyPassword 'rootkali'
+        release {
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+        }
     }
-}
 
     buildTypes {
         debug {

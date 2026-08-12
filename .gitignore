@@ -1,0 +1,16 @@
+# Signing secrets
+key.properties
+app/my-release-key.keystore
+
+# Build outputs
+app/build/
+.gradle/
+build/
+
+# Local config
+local.properties
+
+# Gradle wrapper is committed; ignore IDE files
+.idea/
+*.iml
+.DS_Store
