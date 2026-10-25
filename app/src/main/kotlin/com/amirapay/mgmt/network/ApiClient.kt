@@ -94,6 +94,13 @@ data class DeviceLockRequest(
     @SerializedName("devices_lock") val devicesLock: Int
 )
 
+data class DeviceLockData(
+    @SerializedName("contract_id") val contractId: Int?,
+    @SerializedName("devices_lock") val devicesLock: Int?,
+    @SerializedName("devices_lock_label") val devicesLockLabel: String?,
+    @SerializedName("updated_at") val updatedAt: String?
+)
+
 // ─────────────────────────────────────────────
 // Retrofit API Interface
 // ─────────────────────────────────────────────
@@ -102,7 +109,8 @@ interface ChronexApiService {
 
     @GET("registration")
     suspend fun registerDevice(
-        @Query("imedi_numlber") deviceId: String,
+        // Server expects imei_number; "imedi_numlber" caused a 302 HTML redirect
+        @Query("imei_number") deviceId: String,
         @Query("fcm_token") fcmToken: String? = null
     ): Response<ChronexResponse<RegisterResponse>>
 
@@ -114,7 +122,7 @@ interface ChronexApiService {
     @POST("tempered")
     suspend fun notifyTamper(
         @Body request: TamperRequest
-    ): Response<ChronexResponse<Unit>>
+    ): Response<ChronexStatusOnlyResponse>
 
     @POST("update-fcm")
     suspend fun updateFcmToken(
@@ -129,7 +137,7 @@ interface ChronexApiService {
     @POST("contracts/device-lock")
     suspend fun updateDeviceLock(
         @Body request: DeviceLockRequest
-    ): Response<ChronexResponse<Unit>>
+    ): Response<ChronexResponse<DeviceLockData>>
 }
 
 // ─────────────────────────────────────────────

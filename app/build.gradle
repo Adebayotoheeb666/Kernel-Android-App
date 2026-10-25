@@ -37,12 +37,12 @@ android {
     buildTypes {
         debug {
             debuggable true
-            buildConfigField "String", "BASE_URL", '"https://chronextechnologies.com/demo/pos/api/"'
+            buildConfigField "String", "BASE_URL", '"https://amirapay.com/api/"'
         }
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField "String", "BASE_URL", '"https://chronextechnologies.com/demo/pos/api/"'
+            buildConfigField "String", "BASE_URL", '"https://amirapay.com/api/"'
             signingConfig signingConfigs.release
         }
     }
